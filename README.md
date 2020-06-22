@@ -18,7 +18,19 @@ exit
   
 
   
-# Bdutility
+# Bdutility - http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5
+Download BootDisk Utility, and install it.
+
+You need at lease 4GB USB drive
+1. Press Format - this will create 2 partitions on the USB drive
+2. Press DL Center, choose High Sierra Recovery HD and click Download (DL)
+3. The proigram will save new hfs file in the folder.
+4. Select empty partition (not Clover) in the program, click Restore, and choose hfs file from previous step
+5. After installing press Eject
+Mount the USB drive once again.
+
+Now download EFI folder from this repository, and replace all the files on USB drive Clover partition
+EFI filder contains all files needed to boot OSX with Clover. 
 
 # UEFI 
 Reset Bios/Uefi values to default
